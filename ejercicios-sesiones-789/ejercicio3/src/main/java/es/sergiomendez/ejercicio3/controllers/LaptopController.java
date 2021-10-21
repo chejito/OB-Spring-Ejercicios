@@ -1,7 +1,7 @@
-package es.sergiomendez.ejercicio2.controllers;
+package es.sergiomendez.ejercicio3.controllers;
 
-import es.sergiomendez.ejercicio2.entities.Laptop;
-import es.sergiomendez.ejercicio2.repositories.LaptopRepository;
+import es.sergiomendez.ejercicio3.entities.Laptop;
+import es.sergiomendez.ejercicio3.repositories.LaptopRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

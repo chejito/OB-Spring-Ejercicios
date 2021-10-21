@@ -1,4 +1,4 @@
-package es.sergiomendez.ejercicio2.entities;
+package es.sergiomendez.ejercicio3.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

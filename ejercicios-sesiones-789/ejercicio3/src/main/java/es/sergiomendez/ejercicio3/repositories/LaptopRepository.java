@@ -1,6 +1,6 @@
-package es.sergiomendez.ejercicio2.repositories;
+package es.sergiomendez.ejercicio3.repositories;
 
-import es.sergiomendez.ejercicio2.entities.Laptop;
+import es.sergiomendez.ejercicio3.entities.Laptop;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

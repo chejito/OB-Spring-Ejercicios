@@ -1,16 +1,16 @@
-package es.sergiomendez.ejercicio2;
+package es.sergiomendez.ejercicio3;
 
-import es.sergiomendez.ejercicio2.entities.Laptop;
-import es.sergiomendez.ejercicio2.repositories.LaptopRepository;
+import es.sergiomendez.ejercicio3.entities.Laptop;
+import es.sergiomendez.ejercicio3.repositories.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class Ejercicio2Application {
+public class Ejercicio3Application {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(Ejercicio2Application.class, args);
+		ApplicationContext context = SpringApplication.run(Ejercicio3Application.class, args);
 		LaptopRepository repository = context.getBean(LaptopRepository.class);
 
 		// Crear laptop
